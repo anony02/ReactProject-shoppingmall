@@ -1,4 +1,67 @@
-# Getting Started with Create React App
+# Project Name
+
+상품들을 다양한 필터를 통해 검색할 수 있는 쇼핑몰을 구현하였습니다.
+
+## Installation
+
+1. cd shoppingmall
+
+2. npm install
+
+3. npm run dev
+
+## Project Doc
+
+### Built With
+
+| package name     | version |
+| ---------------- | ------- |
+| react            | ^18.2.0 |
+| react-dom        | ^18.2.0 |
+| react-scripts    | ^18.2.0 |
+| react-router-dom | ^6.22.3 |
+| axios            | ^1.6.8  |
+
+_자세한 개발 스택은 package.json 참고_
+
+### Pages
+
+1. `pages/index.tsx`: 메인페이지
+2. `pages/login.tsx`: 로그인페이지
+   ...
+
+### Configurations
+
+```jsx
+import React, { useState } from "react";
+import DatePicker from "react-datepicker";
+
+import "react-datepicker/dist/react-datepicker.css";
+
+// CSS Modules, react-datepicker-cssmodules.css
+// import 'react-datepicker/dist/react-datepicker-cssmodules.css';
+
+const Example = () => {
+  const [startDate, setStartDate] = useState(new Date());
+  return <DatePicker selected={startDate} onChange={(date) => setStartDate(date)} />;
+};
+```
+
+## Information
+
+- [project notion](https://notion.so/.../...)
+  - {포함 항목}
+  - 기획 배경
+  - 와이어프레임
+  - 태스크
+  - 관련 기술 문서 등
+  - API: https://dummyjson.com/docs/products
+
+## Author
+
+- [이도현](https://linkedin...)
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +130,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->

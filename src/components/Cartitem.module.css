@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border: 1px solid rgb(230, 230, 230);
+  background-color: rgb(230, 230, 230);
+}
+
+button:hover {
+  border: 1px solid black;
+}
+
+.cartitem {
+  background-clip: content-box;
+  display: flex;
+  padding: 10px;
+  border-top: 2px solid rgb(220, 220, 220);
+  border-bottom: 2px solid rgb(220, 220, 220);
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border: 1px solid rgb(230, 230, 230);
+}
+
+.info {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info > * {
+  padding: 10px 0;
+  text-align: start;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.discount {
+  color: red;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.soldout {
+  color: red;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.btnwrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.delete {
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.select {
+  display: flex;
+  line-height: 30px;
+  align-items: end;
+}
+
+.select > div {
+  width: 120px;
+  text-align: end;
+  font-weight: bold;
+}
+
+.selectbox {
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-content: center;
+}
+
+.selectbox > button {
+  border-collapse: collapse;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.selectbox > input {
+  border: 1px solid rgb(230, 230, 230);
+  padding: 0;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.info > button {
+  margin-top: 10px;
+}
+
+/* .cartitem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.info {
+  flex: 1;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333; 
+}
+
+.discount {
+  margin-right: 5px;
+  color: #007bff; 
+}
+
+.price {
+  font-size: 16px;
+  color: #555; 
+}
+
+.stock {
+  font-size: 14px;
+  color: #888; 
+}
+
+.soldout {
+  font-weight: bold;
+  color: #ff0000; 
+}
+
+.delete {
+  background-color: #f0f0f0; 
+  color: #333; 
+  border: 1px solid #ccc; 
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: #e0e0e0; 
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.selectbox {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  text-align: center;
+}
+
+.selectbox button {
+  background-color: #007bff; 
+  color: #fff; 
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.selectbox button:hover {
+  background-color: #0056b3; 
+} */

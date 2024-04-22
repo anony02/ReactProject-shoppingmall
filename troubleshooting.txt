@@ -1,0 +1,6 @@
+- Invalid DOM property `stroke-width` -> svg 코드를 가져올 때 property name을 camelCase로 수정해줘야함
+- <Routes>를 <BrowserRouter> 컴포넌트로 감싸야함
+
+사용 library
+-axios: API호출
+-useParams: 
