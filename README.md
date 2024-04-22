@@ -37,7 +37,8 @@ _자세한 개발 스택은 package.json 참고_
 ## Information
 
 - [project notion](https://www.notion.so/5d3059befa5043a2a0d4adc33ad3c865?pvs=4)
-  - API: https://dummyjson.com/docs/products
+  - 상품정보 API: https://dummyjson.com/docs/products
+  - 카카오로그인 API
 
 ## Author
 
